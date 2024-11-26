@@ -1,0 +1,9 @@
+# Rust-generated files
+/target
+
+# Editor
+.vscode
+
+# Test-generated files
+tarpaulin-report.html
+cobertura.xml

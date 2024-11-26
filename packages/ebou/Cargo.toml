@@ -1,0 +1,9 @@
+[package]
+name = "ebou"
+version = { workspace = true }
+authors = ["sicheng1806 <sicheng1806@outlook.com>"]
+edition = "2021"
+description = "Experimental Mastodon Client"
+
+[dependencies]
+dioxus = { workspace=true, features = ["desktop","router"] }
