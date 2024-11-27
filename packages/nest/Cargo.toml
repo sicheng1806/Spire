@@ -1,0 +1,16 @@
+[package]
+name = "nest"
+version = { workspace = true }
+authors = ["sicheng1806 <sicheng1806@outlook.com>"]
+edition = "2021"
+description = "the nest example app demonstrating the use of router"
+
+[dependencies]
+async-recursion = { workspace=true }
+cfg-if = { workspace=true }
+dioxus = { workspace=true, features = ["router"] }
+dioxus-logger = { workspace=true }
+
+[features]
+desktop = ["dioxus/desktop"]
+web = ["dioxus/web"]
