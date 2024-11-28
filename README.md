@@ -4,6 +4,11 @@
 
 `Spire`是一个跨平台的[Mastodon](https://github.com/mastodon/mastodon)的GUI界面程序。
 
+## ubuntu 动态库依赖
+
+```bash
+sudo apt install -y libgtk-3-dev
+```
 ## 开发指南
 
 此项目使用[dioxus](https://github.com/DioxusLabs/dioxus)+[tailwindcss](https://github.com/tailwindlabs/tailwindcss)的开发框架。
