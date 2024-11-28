@@ -18,10 +18,6 @@ args = ["clippy"]
 command = "cargo"
 args = ["check"]
 
-[tasks.clean]
-command = "cargo"
-args = ["clean"]
-
 [tasks.build]
 command = "cargo"
 args = ["build"]
@@ -31,7 +27,7 @@ args = ["build"]
 dependencies = ["format", "clippy"]
 
 [tasks.test]
-dependencies = ["check","clean"]
+dependencies = ["check"]
 command = "cargo"
 args = ["test"]
 
@@ -44,7 +40,7 @@ args = [
 ]
 
 [tasks.test-cov]
-dependencies = ["check","clean"]
+dependencies = ["check"]
 command = "cargo"
 args = ["tarpaulin","--out","xml"]
 
