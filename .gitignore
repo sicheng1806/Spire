@@ -21,3 +21,8 @@ static/
 
 # tmp dir
 /.tmp
+/components
+
+# npm-generated files
+node_modules/
+tailwind.css

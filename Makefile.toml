@@ -47,3 +47,11 @@ args = [
 dependencies = ["check","clean"]
 command = "cargo"
 args = ["tarpaulin","--out","xml"]
+
+# for ebou
+[tasks.tailwind]
+command = "npx"
+args = ["tailwindcss","-i","input.css","-o","assets/tailwind.css","--watch"]
+[tasks.dev]
+command = "dx"
+args = ["serve","--port","3000","--hot-reload"]

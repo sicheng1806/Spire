@@ -1,4 +1,4 @@
-use ebou::run;
+use spire::run;
 
 fn main() {
     run();
